@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@drawable/background">
+    <TextView
+        android:text="Calcular Capital"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center" />
+    <TextView
+        android:text="Receitas Brasil"
+        android:textSize="15dp"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="80dp"
+        android:gravity="center" />
+    <TextView
+        android:text="Receitas México"
+        android:textSize="15dp"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginRight="80dp"
+        android:gravity="center" />
+    <TextView
+        android:text="Despesas Brasil"
+        android:textSize="15dp"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="80dp"
+        android:gravity="center" />
+    <TextView
+        android:text="Despesas México"
+        android:textSize="15dp"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginRight="80dp"
+        android:gravity="center" />
+    <EditText
+        android:text="0"
+        android:numeric="integer"
+        android:inputType="number"
+        android:id="@+id/txtrbrasil"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_alignParentRight="true"
+        android:gravity="center" />
+    <EditText
+        android:text="0"
+        android:numeric="integer"
+        android:inputType="number"
+        android:id="@+id/txtrmexico"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_alignParentRight="true"
+        android:gravity="center" />
+    <EditText
+        android:text="0"
+        android:numeric="integer"
+        android:inputType="number"
+        android:id="@+id/txtdbrasil"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_alignParentRight="true"
+        android:gravity="center" />
+    <EditText
+        android:text="0"
+        android:numeric="integer"
+        android:inputType="number"
+        android:id="@+id/txtdmexico"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:layout_alignParentRight="true"
+        android:gravity="center" />
+    <Button
+        android:text="Calcular"
+        android:id="@+id/btnCalcular"
+        android:layout_width="130dp"
+        android:background="#FFFF1111"
+        android:layout_height="60dp"
+        android:layout_marginTop="320dp"
+        android:layout_alignParentRight="true"
+        android:gravity="center" />
+</RelativeLayout>
