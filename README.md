@@ -4,13 +4,13 @@ O treinamento, com duração de cinco semanas e 10 horas aula, é gratuito. Os p
 
 Módulos
 
-Semana 01: Introdução ao desenvolvimento mobile
-Semana 02: Xamarin.Android
-Semana 03: Xamarin.iOS
-Semana 04: Xamarin Forms
-Semana 05: Serviços de nuvem para seu aplicativo com Xamarin
-Semana 06: Desenvolvimento do aplicativo
-Semana 07: Desenvolvimento do aplicativo
+* Semana 01: Introdução ao desenvolvimento mobile
+* Semana 02: Xamarin.Android
+* Semana 03: Xamarin.iOS
+* Semana 04: Xamarin Forms
+* Semana 05: Serviços de nuvem para seu aplicativo com Xamarin
+* Semana 06: Desenvolvimento do aplicativo
+* Semana 07: Desenvolvimento do aplicativo
 
 Read more at https://news.microsoft.com/pt-br/microsoft-realiza-maratona-gratuita-de-xamarin/#XXwiuyH7WYAji9cb.99
 
