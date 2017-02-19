@@ -12,6 +12,4 @@ Módulos
 * Semana 06: Desenvolvimento do aplicativo
 * Semana 07: Desenvolvimento do aplicativo
 
-Read more at https://news.microsoft.com/pt-br/microsoft-realiza-maratona-gratuita-de-xamarin/#XXwiuyH7WYAji9cb.99
-
 Read more at https://news.microsoft.com/pt-br/microsoft-realiza-maratona-gratuita-de-xamarin/#iK2Hmx6vR1wBZrOd.99
