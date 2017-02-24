@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamariniOSLicao5", "XamariniOSLicao5\XamariniOSLicao5.csproj", "{A369C8B1-EBD9-4E5F-A936-54458B83BC0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A369C8B1-EBD9-4E5F-A936-54458B83BC0B}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{A369C8B1-EBD9-4E5F-A936-54458B83BC0B}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{A369C8B1-EBD9-4E5F-A936-54458B83BC0B}.Release|iPhone.ActiveCfg = Release|iPhone
+		{A369C8B1-EBD9-4E5F-A936-54458B83BC0B}.Release|iPhone.Build.0 = Release|iPhone
+		{A369C8B1-EBD9-4E5F-A936-54458B83BC0B}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{A369C8B1-EBD9-4E5F-A936-54458B83BC0B}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{A369C8B1-EBD9-4E5F-A936-54458B83BC0B}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{A369C8B1-EBD9-4E5F-A936-54458B83BC0B}.Debug|iPhone.Build.0 = Debug|iPhone
+	EndGlobalSection
+EndGlobal
