@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XamarinFormsLicao1"
+             x:Class="XamarinFormsLicao1.MainPage">
+  <ContentPage.Padding>
+    <OnPlatform x:TypeArgument="Thickness"
+                Android="0,0,0,0"
+                iOS="0,20,0,0"
+                WinPhone="0,0,0,0"/>
+  </ContentPage.Padding>
+  <ScrollView>
+    <StackLayout Orientation="Vertical"
+                 Padding="5,0,0,0">
+      <Switch/>
+      <Entry/>
+      <Button Text="Button" Command="{Binding Path=MessageCommand}"/>
+
+      <Label Text="Date: "/>
+      <DatePicker/>
+
+      <SearchBar Text="Search bar"/>
+
+      <Slider x:Name="SliderControl" Value="10"/>
+
+      <Label Text="Progress Indicator:"></Label>
+      <ProgressBar Progress="{Binding Source={x:Reference Name=SliderControl}, Path=Value}"/>
+    </StackLayout>
+  </ScrollView>
+</ContentPage>
