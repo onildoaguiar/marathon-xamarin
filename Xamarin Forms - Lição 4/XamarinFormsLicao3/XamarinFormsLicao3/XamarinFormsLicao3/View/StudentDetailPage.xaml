@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XamarinFormsLicao3"
+             x:Class="XamarinFormsLicao3.StudentDetailPage"
+             Title="Detalhes do Aluno">
+    <ContentPage.Content></ContentPage.Content>
+    <StackLayout>
+        <Label Text="Nome: "/>
+        <Entry Text="{Binding Name}"/>
+        <Label Text="Sobrenome: "/>
+        <Entry Text="{Binding LastName}"/>
+        <Label Text="Média: "/>
+        <Entry Text="{Binding Average}"/>
+    </StackLayout>
+</ContentPage>
