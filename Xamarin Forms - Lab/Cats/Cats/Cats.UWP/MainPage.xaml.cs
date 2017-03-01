@@ -13,7 +13,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-namespace XamarinFormsLicao2.Windows
+namespace Cats.UWP
 {
     public sealed partial class MainPage
     {
@@ -21,7 +21,7 @@ namespace XamarinFormsLicao2.Windows
         {
             this.InitializeComponent();
 
-            LoadApplication(new XamarinFormsLicao2.App());
+            LoadApplication(new Cats.App());
         }
     }
 }
