@@ -1,7 +1,8 @@
 ﻿<Application
-    x:Class="XamarinFormsLicao2.Windows.App"
+    x:Class="Cats.UWP.App"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:XamarinFormsLicao2.Windows">
+    xmlns:local="using:Cats.UWP"
+    RequestedTheme="Light">
 
 </Application>
